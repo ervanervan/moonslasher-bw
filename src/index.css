@@ -14,11 +14,11 @@
     @apply bg-cl-black;
   }
 
-  h2,
+  h1,
   p {
     @apply font-outfit;
   }
-  h1,
+
   a {
     @apply font-mochiyPopOne;
   }
