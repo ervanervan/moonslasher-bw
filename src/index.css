@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outfit", sans-serif;
+  src: url(./fonts/Outfit-Variable.ttf);
+}
+
+@layer base {
+  h2 {
+    @apply font-mochiyPopOne;
+  }
+}
