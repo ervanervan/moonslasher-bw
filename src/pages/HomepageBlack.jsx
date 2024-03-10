@@ -125,12 +125,12 @@ const HomepageBlack = () => {
                   <img
                     src={arrowRounded}
                     alt=""
-                    className="absolute bottom-8 left-28"
+                    className="absolute bottom-8 left-28 cursor-pointer"
                   />
                   <img
                     src={arrowRounded}
                     alt=""
-                    className="absolute -bottom-1 right-1"
+                    className="absolute -bottom-1 right-1 cursor-pointer"
                   />
                   <div className="absolute top-0 flex flex-col gap-16 px-9 py-9">
                     <h1 className="text-cl-white font-bold text-lg">
