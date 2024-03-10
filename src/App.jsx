@@ -1,7 +1,16 @@
+import { Routes, Route } from "react-router-dom";
+import HomepageBlack from "./pages/HomepageBlack";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Routes>
+        <Route path="/" element={<HomepageBlack></HomepageBlack>}></Route>
+        <Route
+          path="/home-white"
+          element={<HomepageBlack></HomepageBlack>}
+        ></Route>
+      </Routes>
     </>
   );
 }
