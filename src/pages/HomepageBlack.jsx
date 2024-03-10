@@ -15,8 +15,8 @@ const HomepageBlack = () => {
           />
 
           <div className="container mx-auto mt-7">
-            <nav className="flex gap-x-8">
-              <img src={font1} alt="" className="h-fit" />
+            <nav className="flex gap-x-8 px-8 md:px-0">
+              <img src={font1} alt="" className="h-fit hidden md:block" />
               <ul className="flex gap-x-2">
                 <li className="bg-white h-fit text-cl-black hover:text-cl-red px-1.5 py-1 border-[1px] hover:border-cl-red transition-all duration-300">
                   <a href="/" className="text-base flex flex-col">
